@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "jt"
+  },
+  "text": {
+    "more": "test geph file",
+    "intro": "Market Access Network",
+    "title": "Germany"
+  },
+  "legend": {
+    "edgeLabel": "connections",
+    "colorLabel": "institution",
+    "nodeLabel": "KOL"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "institution",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 1,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 30,
+      "minEdgeSize": 1,
+      "minNodeSize": 1,
+      "maxNodeSize": 20
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
